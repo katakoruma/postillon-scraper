@@ -9,7 +9,7 @@ y,m = 2020, 4
 save = False
 
 url = lambda year, month, id:f'https://www.der-postillon.com/{year}/{month:02d}/newsticker-{id}.html'
-path = '/Users/leon/Boxcryptor/sciebo/code/Python_encrypted/postillon_newsticker_crawler/ticker.pkl'
+path = 'ticker.pkl'
 
 #html_export = requests.get(url(y,m))
 #html_export.raise_for_status()
